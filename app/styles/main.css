@@ -60,6 +60,7 @@ body {
 }
 .allCollaborations {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .post-it {

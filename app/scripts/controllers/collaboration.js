@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('smartcollaborateApp')
   .controller('CollaborationCtrl', ["$scope","$routeParams","$location","collaborations", function ($scope, $routeParams, $location, collaborations) {
     var collaborationId = $routeParams.collaborationId;

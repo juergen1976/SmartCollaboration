@@ -10,9 +10,4 @@ describe('Service: collaboration', function () {
   beforeEach(inject(function (_collaboration_) {
     collaboration = _collaboration_;
   }));
-
-  it('should do something', function () {
-    expect(!!collaboration).toBe(true);
-  });
-
 });

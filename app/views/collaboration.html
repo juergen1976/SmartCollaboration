@@ -1,16 +1,25 @@
 <form ng-submit="submitCollaboration()">
+
+  <!-- Title -->
   <div class="form-group">
-    <label>Title</label>
+    <label>Title for collaboration</label>
     <input type="text" ng-model="collaboration.title" />
   </div>
+
+  <!-- Description -->
   <div class="form-group">
-    <label>Description</label>
-    <textarea rows="4" cols="50" ng-model="collaboration.description" />
+    <label>Description for collaboration</label>
+    <input type="text" ng-model="collaboration.description" />
   </div>
+
+  <!-- Author -->
   <div class="form-group">
     <label>Author</label>
     <input type="text" ng-model="collaboration.author" />
   </div>
+
+
+  <!-- Category -->
   <div class="form-group">
     <label>Category</label>
     <select class="form-control" ng-model="collaboration.category">
@@ -19,6 +28,7 @@
       <option>Node</option>
     </select>
   </div>
+  <!-- Buttons -->
   <button type="button" class="btn btn-default" ng-click="cancel()">Cancel</button>
   <input type="submit" class="btn btn-primary" value="Save">
 </form>

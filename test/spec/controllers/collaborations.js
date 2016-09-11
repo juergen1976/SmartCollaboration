@@ -16,8 +16,4 @@ describe('Controller: CollaborationsCtrl', function () {
       // place here mocked dependencies
     });
   }));
-
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(CollaborationsCtrl.awesomeThings.length).toBe(3);
-  });
 });

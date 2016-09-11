@@ -9,8 +9,5 @@
  */
 angular.module('smartcollaborateApp')
   .controller('MainCtrl', function () {
-   var mainCtrl = this;
-
-
 
   });
