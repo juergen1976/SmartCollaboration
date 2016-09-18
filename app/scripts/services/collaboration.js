@@ -13,8 +13,8 @@ angular.module('smartcollaborateApp')
       };
       firebase.initializeApp(config);
       var ref = firebase.database().ref();
+      var firebaseArray = $firebaseArray(ref);
 
-
-      return $firebaseArray(ref);
+      return firebaseArray;
     }
   ]);
