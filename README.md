@@ -1,7 +1,7 @@
 # smartcollaborate
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
+WebApplication to demonstrate Firebase integration.
+Mentioned in [JavaSpektrum 05/2016] (https://www.sigs-datacom.de/fachzeitschriften/javaspektrum/archiv/artikelansicht/artikel-titel/fokus-auf-das-wichtige-nahtlose-backend-integration-mit-firebase.html)
 
 ## Build & development
 
